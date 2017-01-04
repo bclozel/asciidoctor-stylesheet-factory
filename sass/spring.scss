@@ -1,0 +1,26 @@
+@import "fonts/valera-montserrat";
+@import "settings/spring";
+@import "components/asciidoc";
+@import "components/awesome-icons";
+
+.admonitionblock {
+    border-left: 4px solid #6db33f;
+    background-color: #ebf1e7;
+    padding: 1.2em 0;
+    margin: 30px 0;
+    width: auto;
+}
+
+#toc {
+  a {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.admonitionblock > table {
+  td.content {
+    border-left: none; 
+  }
+}
